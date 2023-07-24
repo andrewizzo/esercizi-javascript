@@ -35,3 +35,4 @@ checkNumber(isLogged)
     .catch((error) => {
         console.error(error);
     })
+    .finally(() => {console.log('final method')})
